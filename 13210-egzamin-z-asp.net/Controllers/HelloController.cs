@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _13210_egzamin_z_asp.net.Controllers
 {
-    public class IndeksController : Controller
+    public class HelloController : Controller
     {
         static List<StudentsGrades> studentsGrades = new List<StudentsGrades>();
         public IActionResult Index()
