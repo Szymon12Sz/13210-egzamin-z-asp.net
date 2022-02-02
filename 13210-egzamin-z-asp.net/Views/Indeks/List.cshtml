@@ -1,0 +1,28 @@
+﻿@model ICollection<_13210_egzamin_z_asp.net.Models.StudentsGrades>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"> Index</th>
+            <th scope="col"> Grade</th>
+            <th scope="col"> Subject</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.StudentsIndex</th>
+                <th>@item.Grade</th>
+                <th>@item.Subject</th>
+
+            </tr>
+        }
+
+    </tbody>
+</table>
