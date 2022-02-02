@@ -11,7 +11,7 @@ namespace _13210_egzamin_z_asp.net.Models
         [Required]
         public int StudentsIndex { get; set; }
         [Required]
-        [Range(2, 5, ErrorMessage = "Grade must be between 2 and 5")]
+        [Range(1, 5, ErrorMessage = "Grade musi byc miedzy 1 a 5")]
         public decimal Grade { get; set; }
         [Required]
         public string Subject { get; set; }
